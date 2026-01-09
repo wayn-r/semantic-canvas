@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(cat:*)",
+      "Bash(sudo ufw status:*)",
+      "Bash(ufw status:*)",
+      "Bash(ss:*)",
+      "Bash(curl:*)",
+      "Bash(sudo apt update:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(systemctl status:*)",
+      "Bash(sudo ss:*)",
+      "Bash(docker rm:*)",
+      "Bash(docker logs:*)",
+      "Bash(pkill:*)",
+      "Bash(npm install:*)",
+      "Bash(jq:*)",
+      "Bash(npm run dev:frontend:*)",
+      "Bash(node -e:*)",
+      "Bash(kill:*)",
+      "Bash(ip addr:*)",
+      "Bash(xargs:*)"
+    ]
+  }
+}
